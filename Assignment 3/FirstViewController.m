@@ -6,13 +6,13 @@
 //  Copyright © 2015 Kevin. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "UnlockItViewController.h"
 
-@interface FirstViewController ()
+@interface UnlockItViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation UnlockItViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

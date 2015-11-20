@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		1F33109C1BDD12EF0054D77B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33109B1BDD12EF0054D77B /* main.m */; };
 		1F33109F1BDD12EF0054D77B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33109E1BDD12EF0054D77B /* AppDelegate.m */; };
-		1F3310A21BDD12EF0054D77B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3310A11BDD12EF0054D77B /* FirstViewController.m */; };
-		1F3310A51BDD12EF0054D77B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3310A41BDD12EF0054D77B /* SecondViewController.m */; };
+		1F3310A51BDD12EF0054D77B /* CheckItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3310A41BDD12EF0054D77B /* CheckItViewController.m */; };
 		1F3310A81BDD12EF0054D77B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3310A61BDD12EF0054D77B /* Main.storyboard */; };
 		1F3310AA1BDD12EF0054D77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3310A91BDD12EF0054D77B /* Assets.xcassets */; };
 		1F3310AD1BDD12EF0054D77B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3310AB1BDD12EF0054D77B /* LaunchScreen.storyboard */; };
 		1F3310B81BDD12EF0054D77B /* Assignment_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3310B71BDD12EF0054D77B /* Assignment_3Tests.m */; };
 		1F3310C31BDD12EF0054D77B /* Assignment_3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3310C21BDD12EF0054D77B /* Assignment_3UITests.m */; };
+		1F3310D41BDDDECB0054D77B /* UnlockItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3310D31BDDDECB0054D77B /* UnlockItViewController.m */; };
+		1F3310D71BDDE00D0054D77B /* HintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3310D61BDDE00D0054D77B /* HintViewController.m */; };
+		1FE37F1B1BDE93E000038B59 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE37F1A1BDE93E000038B59 /* RootViewController.m */; };
+		1FE37F231BDF34FE00038B59 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1FE37F221BDF34FE00038B59 /* win.wav */; };
+		1FE37F281BE01F3500038B59 /* 6864230-zen-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE37F271BE01F3500038B59 /* 6864230-zen-wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +44,8 @@
 		1F33109B1BDD12EF0054D77B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F33109D1BDD12EF0054D77B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F33109E1BDD12EF0054D77B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F3310A01BDD12EF0054D77B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		1F3310A11BDD12EF0054D77B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		1F3310A31BDD12EF0054D77B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		1F3310A41BDD12EF0054D77B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1F3310A31BDD12EF0054D77B /* CheckItViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckItViewController.h; sourceTree = "<group>"; };
+		1F3310A41BDD12EF0054D77B /* CheckItViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckItViewController.m; sourceTree = "<group>"; };
 		1F3310A71BDD12EF0054D77B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F3310A91BDD12EF0054D77B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F3310AC1BDD12EF0054D77B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,15 @@
 		1F3310BE1BDD12EF0054D77B /* Assignment 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3310C21BDD12EF0054D77B /* Assignment_3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment_3UITests.m; sourceTree = "<group>"; };
 		1F3310C41BDD12EF0054D77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3310D21BDDDECB0054D77B /* UnlockItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockItViewController.h; sourceTree = "<group>"; };
+		1F3310D31BDDDECB0054D77B /* UnlockItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockItViewController.m; sourceTree = "<group>"; };
+		1F3310D51BDDE00D0054D77B /* HintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HintViewController.h; sourceTree = "<group>"; };
+		1F3310D61BDDE00D0054D77B /* HintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HintViewController.m; sourceTree = "<group>"; };
+		1F3310D81BDDE2B20054D77B /* custom-tab-app-images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "custom-tab-app-images"; path = "../../../../Downloads/custom-tab-app-images"; sourceTree = "<group>"; };
+		1FE37F191BDE93E000038B59 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1FE37F1A1BDE93E000038B59 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1FE37F221BDF34FE00038B59 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		1FE37F271BE01F3500038B59 /* 6864230-zen-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6864230-zen-wallpaper.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +117,19 @@
 			children = (
 				1F33109D1BDD12EF0054D77B /* AppDelegate.h */,
 				1F33109E1BDD12EF0054D77B /* AppDelegate.m */,
-				1F3310A01BDD12EF0054D77B /* FirstViewController.h */,
-				1F3310A11BDD12EF0054D77B /* FirstViewController.m */,
-				1F3310A31BDD12EF0054D77B /* SecondViewController.h */,
-				1F3310A41BDD12EF0054D77B /* SecondViewController.m */,
+				1F3310D21BDDDECB0054D77B /* UnlockItViewController.h */,
+				1F3310D31BDDDECB0054D77B /* UnlockItViewController.m */,
+				1F3310A31BDD12EF0054D77B /* CheckItViewController.h */,
+				1F3310A41BDD12EF0054D77B /* CheckItViewController.m */,
 				1F3310A61BDD12EF0054D77B /* Main.storyboard */,
+				1FE37F191BDE93E000038B59 /* RootViewController.h */,
+				1FE37F1A1BDE93E000038B59 /* RootViewController.m */,
+				1F3310D51BDDE00D0054D77B /* HintViewController.h */,
+				1F3310D61BDDE00D0054D77B /* HintViewController.m */,
 				1F3310A91BDD12EF0054D77B /* Assets.xcassets */,
+				1FE37F271BE01F3500038B59 /* 6864230-zen-wallpaper.jpg */,
+				1FE37F221BDF34FE00038B59 /* win.wav */,
+				1F3310D81BDDE2B20054D77B /* custom-tab-app-images */,
 				1F3310AB1BDD12EF0054D77B /* LaunchScreen.storyboard */,
 				1F3310AE1BDD12EF0054D77B /* Info.plist */,
 				1F33109A1BDD12EF0054D77B /* Supporting Files */,
@@ -249,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F3310AD1BDD12EF0054D77B /* LaunchScreen.storyboard in Resources */,
+				1FE37F231BDF34FE00038B59 /* win.wav in Resources */,
 				1F3310AA1BDD12EF0054D77B /* Assets.xcassets in Resources */,
 				1F3310A81BDD12EF0054D77B /* Main.storyboard in Resources */,
+				1FE37F281BE01F3500038B59 /* 6864230-zen-wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F3310A51BDD12EF0054D77B /* SecondViewController.m in Sources */,
+				1F3310D71BDDE00D0054D77B /* HintViewController.m in Sources */,
+				1F3310A51BDD12EF0054D77B /* CheckItViewController.m in Sources */,
+				1FE37F1B1BDE93E000038B59 /* RootViewController.m in Sources */,
 				1F33109F1BDD12EF0054D77B /* AppDelegate.m in Sources */,
-				1F3310A21BDD12EF0054D77B /* FirstViewController.m in Sources */,
 				1F33109C1BDD12EF0054D77B /* main.m in Sources */,
+				1F3310D41BDDDECB0054D77B /* UnlockItViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +526,7 @@
 				1F3310C91BDD12EF0054D77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F3310CA1BDD12EF0054D77B /* Build configuration list for PBXNativeTarget "Assignment 3Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +535,7 @@
 				1F3310CC1BDD12EF0054D77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F3310CD1BDD12EF0054D77B /* Build configuration list for PBXNativeTarget "Assignment 3UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +544,7 @@
 				1F3310CF1BDD12EF0054D77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
